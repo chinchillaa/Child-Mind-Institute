@@ -100,6 +100,10 @@ def generate_features(namespace, overwrite):
 
 
 class Feature(metaclass=ABCMeta):
+    """
+    This class defines a template for creating and saving features for machine learning models.
+    """
+
     prefix = ""
     suffix = ""
     dir = "."

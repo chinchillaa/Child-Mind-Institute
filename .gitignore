@@ -13,6 +13,8 @@ features/importances/*.png
 ### JupyterNotebook ###
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
+notebooks/play-ground.ipynb
+notebooks/references/*
 
 # Remove previous ipynb_checkpoints
 #   git rm -r .ipynb_checkpoints/
