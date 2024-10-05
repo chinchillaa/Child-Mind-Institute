@@ -1,4 +1,4 @@
-ml-competition-template-titanic
+ML-competition-template-titanic
 ===
 - [Kaggle Titanic](https://www.kaggle.com/c/titanic) example of my own, inspired by [flowlight0's repo](https://github.com/flowlight0/talkingdata-adtracking-fraud-detection).
 - You can get the score = 0.76555 at the version of 2018-12-28.
