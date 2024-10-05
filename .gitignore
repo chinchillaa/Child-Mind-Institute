@@ -1,5 +1,6 @@
 # files under ./data
 data/*/*.feather
+data/*/*.parquet
 data/*/*.csv
 data/*/*.tsv
 data/*/*.zip
