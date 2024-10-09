@@ -18,6 +18,8 @@ scikit-learn
 lightgbm
 catboost
 xgboost
+
 optuna
+wandb
 
 kaggle

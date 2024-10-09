@@ -1,0 +1,13 @@
+{
+    "lgbm_params": {
+        "learning_rate": 0.03884249148676395,
+        "max_depth": 12,
+        "num_leaves": 413,
+        "min_data_in_leaf": 14,
+        "feature_fraction": 0.7987976913702801,
+        "bagging_fraction": 0.7602261703576205,
+        "bagging_freq": 2,
+        "lambda_l1": 4.735462555910575,
+        "lambda_l2": 4.735028557007343e-06,
+    }
+}
