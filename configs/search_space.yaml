@@ -1,0 +1,43 @@
+# search_space.yaml
+
+model_type: 'lightgbm'  # または 'xgboost', 'neural_network'
+
+int_params:
+  - name: num_leaves
+    low: 20
+    high: 150
+  - name: max_depth
+    low: 3
+    high: 12
+  - name: min_child_samples
+    low: 5
+    high: 100
+  # ニューラルネットワーク用のパラメータ
+  - name: hidden_size
+    low: 64
+    high: 256
+  - name: epochs
+    low: 10
+    high: 100
+  - name: batch_size
+    low: 16
+    high: 128
+
+float_params:
+  - name: learning_rate
+    low: 0.001
+    high: 0.1
+  - name: subsample
+    low: 0.5
+    high: 1.0
+  - name: colsample_bytree
+    low: 0.5
+    high: 1.0
+  # ニューラルネットワーク用のパラメータ
+  - name: dropout_rate
+    low: 0.0
+    high: 0.5
+
+categorical_params:
+  - name: booster
+    choices: ['gbtree', 'dart']  # XGBoost用
